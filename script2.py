@@ -16,6 +16,7 @@ update_script()
 print("[yellow]welcom [/]")
 
 name=input("enter ur name : ")
+
 print("your name is : ",name)
 
 print("-----------------------")
