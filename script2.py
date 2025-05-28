@@ -10,10 +10,11 @@ def update_script():
         print("no updates found")    
 
 
-
+print("-----------------------")
 update_script()
-print("-----------------------")
+
 print("[yellow]welcom [/]")
-print("-----------------------")
+
 name=input("enter ur name : ")
 print("your name is : ",name)
+print("-----------------------")
