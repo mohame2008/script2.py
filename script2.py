@@ -2,7 +2,7 @@ import requests
 from rich import print
 
 def update_script():
-    url='https://github.com/mohame2008/script2.py'
+    url='https://github.com/mohame2008/script2.py/blob/main/script2.py'
     response= requests.get(url)
     if response.status_code==200: 
         print("update to the new version")
