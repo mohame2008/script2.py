@@ -2,7 +2,7 @@ import requests
 from rich import print
 
 def update_script():
-    url='https://raw.githubusercontent.com/mohame2008/script2.py/387180260a1af50e3a470c7656963885763596b1/script2.py'
+    url='https://raw.githubusercontent.com/mohame2008/script2.py/refs/heads/main/script2.py'
     may_name="fackyou"
 
     response= requests.get(url)
